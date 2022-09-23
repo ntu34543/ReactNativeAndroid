@@ -42,8 +42,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 40,
-    color: 'white',
-    backgroundColor: 'black',
+    color: 'green',
   },
   image: {
     margin: 20,

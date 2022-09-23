@@ -42,12 +42,11 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 40,
-    color: 'white',
-    backgroundColor: 'black',
+    color: 'green',
   },
   image: {
-    margin: 20,
-    width: 100,
-    height: 100,
+    ma
+    width: 200,
+    height: 200,
   }
 });

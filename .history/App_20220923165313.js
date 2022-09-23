@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, Button, Image, TextInput, FlatList } from "reac
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Nguyễn Thanh Tú</Text>
-      <Image style={styles.image} source={require("./assets/tu.png")} />
+      <Text style={styles.text}>Welcome to my App</Text>
+      <Image source={require("./assets/favicon.png")} />
       <View style={styles.body}>
         <View>
           <TextInput style={styles.TextInput} placeholder="Email" />
@@ -42,12 +42,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 40,
-    color: 'white',
-    backgroundColor: 'black',
-  },
-  image: {
-    margin: 20,
-    width: 100,
-    height: 100,
+    color: 'green',
+    fontFamily: 'Helvetica new  serif',
   }
 });

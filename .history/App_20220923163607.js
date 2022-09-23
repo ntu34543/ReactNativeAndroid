@@ -1,11 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Button, Image, TextInput, FlatList } from "react-native";
+import { StyleSheet, Text, View, Button, Image, TextInput } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Nguyễn Thanh Tú</Text>
-      <Image style={styles.image} source={require("./assets/tu.png")} />
+      <Text>Open up App.js to start working on your apppppasda!</Text>
+      <Image source={require("./assets/favicon.png")} />
       <View style={styles.body}>
         <View>
           <TextInput style={styles.TextInput} placeholder="Email" />
@@ -31,23 +31,13 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   TextInput: {
-    padding: 3,
+    padding: 10,
     borderWidth: 1,
     borderColor: "black",
     width: 150,
   },
   btn: {
-    width: 50,
-    marginLeft: 10,
-  },
-  text: {
-    fontSize: 40,
-    color: 'white',
-    backgroundColor: 'black',
-  },
-  image: {
-    margin: 20,
     width: 100,
-    height: 100,
-  }
+    alignItems: "center",
+  },
 });

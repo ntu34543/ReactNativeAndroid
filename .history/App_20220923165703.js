@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Nguyễn Thanh Tú</Text>
-      <Image style={styles.image} source={require("./assets/tu.png")} />
+      <Image style={styles.img} source={require("./assets/tu.png")} />
       <View style={styles.body}>
         <View>
           <TextInput style={styles.TextInput} placeholder="Email" />
@@ -42,12 +42,9 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 40,
-    color: 'white',
-    backgroundColor: 'black',
-  },
-  image: {
-    margin: 20,
-    width: 100,
-    height: 100,
+    color: 'green',
+  }
+  img: {
+    
   }
 });

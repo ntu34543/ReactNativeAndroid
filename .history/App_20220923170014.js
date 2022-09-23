@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 40,
-    color: 'white',
+    color: 'green',
     backgroundColor: 'black',
   },
   image: {
